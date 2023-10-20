@@ -97,7 +97,7 @@ struct SettingsView: View {
                 
                 CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
                 
-                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowContent: "https://credo.academy", rowTintColor: .indigo)
+                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "Credo Academy", rowLinkDestination: "https://credo.academy")
                 
             } // SECTION
             
